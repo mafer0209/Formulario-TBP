@@ -1,1 +1,6 @@
-# Formulario-TBP
+El código Formulario TBP V5.py crea una interfaz gráfica en tiempo real para controlar y monitorear un sistema utilizando un controlador PID y Arduino. La aplicación está implementada con PyQt5 para la interfaz gráfica, PyFirmata2 para la comunicación con el Arduino y Matplotlib para la visualización de datos,Este código implementa una aplicación de control y monitoreo en tiempo real con las siguientes funcionalidades:
+una Interfaz Gráfica, que hace uso de  PyQt5 para crear una ventana con controles y visualización de datos, la integracion de un controlador PID personalizado,el cual permite ajustar los parametros del PID y otros ajujstes a traves de un cuadro de dialogo, para el manejo del sistema, y permite la comunicacion de Arduino para la lectura de datos y controlar las salidas, al usar Matplotlib posee la ventaja de visualizar graficos en tiempo real, y guardar de manera automaica un archivo CVS para un analisis posterior.
+
+El código PIDctrl4.py es el codigo del un controlador que implementa un controlador PID (Proporcional, Integral, Derivativo) en Python. Este controlador PID está diseñado para recibir sus ganancias en unidades reales, por ejemplo, °C/% de salida. La clase proporciona métodos para calcular la salida del PID basada en un valor de proceso (PV) y actualizar los parámetros del controlador
+
+Para asegurar que el codigo de programacion se ejecute correctamente es necesario la instalacion de la bibloteca (FIRMATA), este cargado en el Arduino
